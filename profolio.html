@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <div class="navbar-nav mx-auto">
+          <a class="nav-link" href="#home">Home</a>
+          <a class="nav-link" href="#about">About Me</a>
+          <a class="nav-link" href="#skills">Skills</a>
+          <a class="nav-link" href="#work">Recent work</a>
+          <a class="nav-link" href="#contact">Get In Touch</a>
+        </div>
+        <div class="social-icons">
+          <a
+            href="https://www.linkedin.com/in/tr%C6%B0%E1%BB%9Dng-tr%E1%BA%A7n-478600257/"
+            class="social-link"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/quang.truong.695871"
+            class="social-link"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="https://github.com/QuangTruongPractice" class="social-link"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="hero-overlay"></div>
+      <div class="container">
+        <div class="row align-items-center min-vh-100">
+          <div class="col-lg-6">
+            <div class="hero-content">
+              <h1 class="hero-title">Trần Quang Trường</h1>
+              <p class="hero-description">
+                Full-Stack Developer & UI/UX Designer. I create beautiful and
+                functional digital experiences that help businesses grow and
+                connect with their audience.
+              </p>
+              <a href="#contact" class="btn btn-custom">
+                Let's get started <i class="fas fa-arrow-right ms-2"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="hero-image">
+              <img
+                src="https://res.cloudinary.com/dabb0yavq/image/upload/v1755270293/t8oz37ib1wmfdwbstz7x.jpg"
+                alt="Profile Picture"
+                class="profile-img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Companies Section -->
+      <div class="companies-section">
+        <div class="container">
+          <p class="companies-title">Worked with</p>
+          <div class="row justify-content-center">
+            <!-- <div class="col-auto">
+              <div class="company-logo">
+                <i class="fab fa-clickup"></i>
+                <span>ClickUp</span>
+              </div>
+            </div> -->
+            <div class="col-auto">
+              <div class="company-logo">
+                <img
+                  src="https://developers.momo.vn/v3/img/logo2.svg"
+                  alt="MoMo Logo"
+                  class="custom-logo"
+                />
+                <span>MoMo</span>
+              </div>
+            </div>
+            <!-- Jira -->
+            <div class="col-auto">
+              <div class="company-logo">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg"
+                  alt="Jira Logo"
+                  class="custom-logo"
+                />
+                <span>Jira</span>
+              </div>
+            </div>
+            <!-- Firebase -->
+            <div class="col-auto">
+              <div class="company-logo">
+                <img
+                  src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg"
+                  alt="Firebase Logo"
+                  class="custom-logo"
+                />
+                <span>Firebase</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="section-title">About Me</h2>
+            <div class="row align-items-center">
+              <div class="col-lg-6">
+                <p class="about-text">
+                  I am an Information Technology student at Ho Chi Minh City
+                  Open University, passionate about software development and
+                  emerging technologies.
+                </p>
+                <p class="about-text">
+                  My goal is to gain hands-on experience by working on
+                  real-world projects, learning professional workflows, and
+                  continuously improving my skills. I aspire to contribute value
+                  to organizations and pursue a career as a full-time software
+                  engineer after graduation.
+                </p>
+                <!-- <div class="stats-row">
+                  <div class="stat-item">
+                    <h3>50+</h3>
+                    <p>Projects Completed</p>
+                  </div>
+                  <div class="stat-item">
+                    <h3>5+</h3>
+                    <p>Years Experience</p>
+                  </div>
+                  <div class="stat-item">
+                    <h3>30+</h3>
+                    <p>Happy Clients</p>
+                  </div>
+                </div> -->
+              </div>
+              <div class="col-lg-6">
+                <div class="about-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&h=400&fit=crop"
+                    alt="Working"
+                    class="img-fluid rounded"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="skills-category">Frontend Development</h3>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>React.js</span>
+                <span>90%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>React Native</span>
+                <span>80%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" style="width: 80%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>JavaScript</span>
+                <span>85%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>HTML/CSS</span>
+                <span>85%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" style="width: 85%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="skills-category">Backend Development</h3>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Java (Spring Boot / MVC)</span>
+                <span>88%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" style="width: 88%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Python (Flask / Django)</span>
+                <span>85%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>MySQL</span>
+                <span>80%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" style="width: 80%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>RESTful API</span>
+                <span>85%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" style="width: 85%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recent Work Section -->
+    <section id="work" class="work-section">
+      <div class="container">
+        <h2 class="section-title">Recent Work</h2>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="project-card">
+              <div class="project-image">
+                <img
+                  src="https://res.cloudinary.com/dabb0yavq/image/upload/v1756920125/englishAppImage_j4an3o.webp"
+                  alt="English App"
+                />
+                <div class="project-overlay">
+                  <a
+                    href="https://res.cloudinary.com/dabb0yavq/video/upload/v1756915831/bandicam_2025-09-03_21-38-27-005_bvr3y7.mp4"
+                    class="btn btn-custom btn-sm"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+              <div class="project-content">
+                <h4>English App</h4>
+                <p>
+                  A mobile learning platform built with modern technology,
+                  offering smooth performance and scalability.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">Spring Boot</span>
+                  <span class="tag">Java</span>
+                  <span class="tag">React Native</span>
+                  <span class="tag">MySQL</span>
+                  <span class="tag">Firebase</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="project-card">
+              <div class="project-image">
+                <img
+                  src="https://res.cloudinary.com/dabb0yavq/image/upload/v1756920155/foodAppImage_paek91.jpg"
+                  alt="FoodSpot App"
+                />
+                <div class="project-overlay">
+                  <a
+                    href="https://res.cloudinary.com/dabb0yavq/video/upload/v1756916175/foodspot_kxhksh.mp4"
+                    class="btn btn-custom btn-sm"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+              <div class="project-content">
+                <h4>FoodSpot App</h4>
+                <p>
+                  My very first full-stack mobile app, built with modern
+                  technologies and packed with core features.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">Django</span>
+                  <span class="tag">Python</span>
+                  <span class="tag">React Native</span>
+                  <span class="tag">Firebase</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="project-card">
+              <div class="project-image">
+                <img
+                  src="https://res.cloudinary.com/dabb0yavq/image/upload/v1756920142/socialNetworkImage_dwn0sc.jpg"
+                  alt="Social Media Website"
+                />
+                <div class="project-overlay">
+                  <a
+                    href="https://res.cloudinary.com/dabb0yavq/video/upload/v1756916069/bandicam_2025-09-03_22-59-07-753_l7cisc.mp4"
+                    class="btn btn-custom btn-sm"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+              <div class="project-content">
+                <h4>Social Media Website</h4>
+                <p>
+                  A social media website offering real-time messaging, user
+                  profiles, and content sharing, built with modern technologies.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">Spring MVC</span>
+                  <span class="tag">Java</span>
+                  <span class="tag">ReactJS</span>
+                  <span class="tag">Firebase</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="project-card">
+              <div class="project-image">
+                <img
+                  src="https://res.cloudinary.com/dabb0yavq/image/upload/v1756920132/QLHSImage_ydqwqp.jpg"
+                  alt="Task Management Tool"
+                />
+                <div class="project-overlay">
+                  <a
+                    href="https://res.cloudinary.com/derx1izam/video/upload/v1756474418/3449482696548163926_bld2ir.mp4"
+                    class="btn btn-custom btn-sm"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+              <div class="project-content">
+                <h4>Student Management</h4>
+                <p>
+                  System for managing students, classes, and grades efficiently.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">Flask</span>
+                  <span class="tag">HTML/CSS</span>
+                  <span class="tag">Bootstrap</span>
+                  <span class="tag">MySQL</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="contact-info">
+              <h3>Let's work together</h3>
+              <p>
+                I'm always interested in new opportunities and exciting
+                projects. Let's discuss how we can bring your ideas to life.
+              </p>
+
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <h5>Email</h5>
+                  <p>truongtranquang91@gmail.com</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <div>
+                  <h5>Phone</h5>
+                  <p>0866770692</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <h5>Location</h5>
+                  <p>Hiep Thanh Ward, District 12, HCM City</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="thank-you-content">
+              <img
+                src="https://res.cloudinary.com/dabb0yavq/image/upload/v1755270293/t8oz37ib1wmfdwbstz7x.jpg"
+                alt="Thank You"
+                class="thank-you-image"
+              />
+              <h3>Thank You for Visiting My Portfolio!</h3>
+              <p>
+                I truly appreciate your time exploring my portfolio. I hope it
+                gives you a clear overview of my skills and projects.
+              </p>
+              <p>
+                If you have any questions or would like to collaborate, don’t
+                hesitate to get in touch through the channels on the left.
+              </p>
+              <div class="social-connect">
+                <a
+                  href="https://www.linkedin.com/in/tr%C6%B0%E1%BB%9Dng-tr%E1%BA%A7n-478600257/"
+                  class="social-link"
+                >
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a
+                  href="https://www.facebook.com/quang.truong.695871"
+                  class="social-link"
+                >
+                  <i class="fab fa-facebook"></i>
+                </a>
+                <a
+                  href="https://github.com/QuangTruongPractice"
+                  class="social-link"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <p>&copy; 2025 Tran Quang Truong. All rights reserved.</p>
+          </div>
+          <div class="col-md-6">
+            <div class="footer-social">
+              <a href="https://www.linkedin.com/in/tr%C6%B0%E1%BB%9Dng-tr%E1%BA%A7n-478600257/" class="social-link"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/QuangTruongPractice" class="social-link"><i class="fab fa-github"></i></a>
+              <a href="https://www.facebook.com/quang.truong.695871" class="social-link"
+                ><i class="fab fa-facebook"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      // Smooth scrolling for navigation links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            const offsetTop = target.offsetTop - 80; // Account for fixed navbar
+            window.scrollTo({
+              top: offsetTop,
+              behavior: "smooth",
+            });
+          }
+        });
+      });
+
+      // Back to top button functionality
+      const backToTopButton = document.getElementById("backToTop");
+
+      window.addEventListener("scroll", function () {
+        if (window.pageYOffset > 300) {
+          backToTopButton.classList.add("show");
+        } else {
+          backToTopButton.classList.remove("show");
+        }
+      });
+
+      backToTopButton.addEventListener("click", function () {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      });
+
+      // Active navigation highlight
+      window.addEventListener("scroll", function () {
+        const sections = document.querySelectorAll("section");
+        const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
+
+        let currentSection = "";
+        sections.forEach((section) => {
+          const sectionTop = section.offsetTop - 100;
+          if (window.pageYOffset >= sectionTop) {
+            currentSection = section.getAttribute("id");
+          }
+        });
+
+        navLinks.forEach((link) => {
+          link.classList.remove("active");
+          if (link.getAttribute("href") === "#" + currentSection) {
+            link.classList.add("active");
+          }
+        });
+      });
+
+      document
+        .querySelector(".contact-form")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          alert("Thank you for your message! I will get back to you soon.");
+          this.reset();
+        });
+
+      function animateSkillBars() {
+        const skillBars = document.querySelectorAll(".progress-bar");
+        skillBars.forEach((bar) => {
+          const rect = bar.getBoundingClientRect();
+          if (rect.top < window.innerHeight && rect.bottom > 0) {
+            bar.style.animation = "fillBar 2s ease-in-out";
+          }
+        });
+      }
+
+      window.addEventListener("scroll", animateSkillBars);
+    </script>
+  </body>
+</html>
